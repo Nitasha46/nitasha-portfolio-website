@@ -16,14 +16,10 @@ hr{
 }
 
 /* padding */
-
-/* p{
-    padding-bottom: 1rem;
-} */
-
 .padding{
     padding-bottom: 1rem;
 }
+
 
 /* container */
 .container{
@@ -61,6 +57,7 @@ hr{
 /* list */
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline{
@@ -146,4 +143,25 @@ hr{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+/* projects */
+.showcase-list{
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.showcase-list h2{
+    margin: 0.5rem;
+}
+
+.list--ow{
+    background-color: var(--off-white);
+}
+
+/* blogs */
+.showcase-blog{
+    padding-bottom: 6rem;
 }
